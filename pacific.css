@@ -1,80 +1,67 @@
-<<<<<<< HEAD
-body {
-    background-color: #FFFFFF;
-    color: #666666;
-}
-
-header {
-    background-color: #000033;
-    color: #FFFFFF;
-}
-
-nav {
-    background-color: #90C7E3;
-}
-
-h2 {
-    color: #000033;
-}
-
-h1 {
-    margin-bottom: 0px;
-}
-
-.resort {
-    color: #5C7FA3;
-=======
 body{
     background-color:#FFFFFF;
     color:#666666;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-header{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    header{
     background-color:#000033;
     color:#FFFFFF;
-    background-image: url(images/sunset.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    line-height: 400%;
-    text-indent: 1em;
-}
+        background-image: url(images/sunset.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        line-height: 400%;
+        text-indent: 1em;
+    }
+    
+    nav{
+        background-color: #90C7E3;    
+        background-color: #90C7E3;
+        font-weight:bold;
+    }
+    
+    h1, h2, h3 {
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    
+    h3 {
+        color: #000033;
+    }
+    
+    h1 {
+        margin-bottom:0px;
+    }
+    
+    ul {
+        list-style-image: url(images/marker.gif);
+    }
+    
+    table, td, th {
+        border: 2px solid #3399CC;
+        border-collapse: collapse;
+    }
 
-nav{
-    background-color:#90C7E3;
-    font-weight:bold;
-}
+    td, th {
+        padding: 0.5em;
+        text-align: center;
+    }
 
-h1, h2, h3 {
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
+    tr:nth-of-type(odd) {
+        background: lightblue;
+    }
 
-h3 {
-    color: #000033;
-}
-
-h2{
-    color:#000033;
-}
-
-h1 {
-    margin-bottom:0px;
-}
-
-ul {
-    list-style-image: url(images/marker.gif);
-}
-
-footer {
-    font-size: 75%;
-}
-
-.resort{
+    footer {
+        font-size: 75%;
+    }
+    
+    .text {
+        text-align: left;
+    }
+    .resort{
     color:#5C7FA3;
-    font-weight: 700;
-}
-
-#contact {
-    font-size:90%;
->>>>>>> 4e48ae8 (Lab 3 Part 2)
-}
+        font-weight: 700;
+    }
+    
+    #contact {
+        font-size:90%;
+    }
